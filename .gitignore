@@ -1,0 +1,60 @@
+# 🔒 CLÉS API ET SECRETS
+*.sh
+.env
+.env.local
+.env.*.local
+config_apis.sh
+setup_api_keys.sh
+run_expert.sh
+
+# 🚫 Fichiers sensibles
+*.key
+*.pem
+*.crt
+credentials.json
+secrets.json
+
+# 📊 Rapports et résultats (trop volumineux)
+rapports/
+*.html
+*.pdf
+
+# 📁 Caches Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 🔍 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 📋 Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 🗂️ Fichiers temporaires
+*.tmp
+*.temp
+*.log
